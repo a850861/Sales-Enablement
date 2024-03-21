@@ -1,0 +1,26 @@
+.logo{
+    height: 30px;
+    width: 30px;
+    
+}
+p{
+    color: black;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    
+}
