@@ -1,26 +1,50 @@
-.logo{
-    height: 30px;
-    width: 30px;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
-p{
-    color: black;
+.sidenav{
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top :75px;
+    width: 175px;
+    height: 100%;
+    background-color: white;
 }
-header
+.sidenav ul li{
+    margin : 10px 20px;
+    color: white;
+}
+.container a{
+    color: gray;
+}
+
+.header
 {
     position: fixed;
     top: 0;
     left: 0;
-    height: 7%;
+    height:75x;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding-bottom: 0;
 }
-
-header ul li{
+.header p{
+    color: black;
+    padding-bottom: 0;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 0;
+    
+}
+.header ul li{
     display: inline-block;
     margin: 10px 10px;
+    padding-bottom: 0;
     
 }
